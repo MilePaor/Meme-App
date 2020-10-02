@@ -17,6 +17,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - uses: oleksiyrudenko/gha-git-credentials@v1
       with:
+        name: 'jai-dewani'
+        email: 'jai.dewani.99@gmail.com'
         token: '${{ secrets.TOKEN }}'
     - name: Install Packages
       run: npm install
